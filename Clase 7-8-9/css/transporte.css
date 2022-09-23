@@ -104,8 +104,72 @@ footer{
     font-size: 13px
 }
 
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
 .persona{
     border: 1px solid rgb(152, 152, 152);
     border-radius: 5px;
     width: 18%;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    color: gray;
+}
+
+.persona img{
+    border-radius: 50%;
+    max-width: 65%;
+    box-shadow: 0 0 5px black;
+    margin: 13% 0 8%;
+}
+
+.persona h5,
+.persona h6{
+    color: #7277FC;
+    font-weight: normal;
+    margin: 0;
+}
+
+.persona h5{
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.persona h6{
+    font-style: italic;
+}
+
+.persona p{
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.servicio{
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 16px 0;
+    padding: 16px;
+    display: flex;
+    gap: 30px;
+}
+
+.servicio .info h4{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    color: #7277FC;
+    border-bottom: 1px solid #7277FC;
+    padding-bottom: 8px;
+}
+
+.servicio img{
+    border-radius: 15px;
+    display: block;
+}
+
+.servicio:nth-child(odd){
+    flex-direction: row-reverse;
 }
