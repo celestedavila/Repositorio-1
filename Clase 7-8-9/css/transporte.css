@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-}    
+}
 
 header{
     background-color: #7277FC;
@@ -172,4 +172,34 @@ footer{
 
 .servicio:nth-child(odd){
     flex-direction: row-reverse;
+}
+
+.contacto{
+    gap: 25px;
+    display: flex;
+}
+
+.contacto section{
+    width: 100%;
+}
+
+.datos p{
+    font-size: 14px;
+}
+
+.datos ul li{
+    font-size: 13px;
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario p label{
+    min-width: 100px;
+}
+
+.formulario p input,
+.formulario p textarea{
+    width: 100%;
 }
