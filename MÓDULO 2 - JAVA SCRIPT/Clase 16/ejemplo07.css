@@ -1,0 +1,13 @@
+.caja{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.caja.violeta{
+    background-color: violet;
+}
+
+.caja.borde{
+    border: 2px solid purple;
+}
