@@ -1,0 +1,9 @@
+.bloque{
+    width: 40%;
+    background-color: violet;
+    border: 5px solid purple;
+    margin: 0 auto 20px;
+    text-align: center;
+    color: white;
+    padding: 150px;
+}
