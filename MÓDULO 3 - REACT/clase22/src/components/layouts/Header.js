@@ -1,13 +1,9 @@
-const Header = (props) => {
-    return (
+const Header = (props) =>{
+    return(
         <header>
-            <p>hola soy el header</p>
-            <div>
-                <p>NO ME TIRA EL LOREMMMMMM
-                </p>
-            </div>
+            <h1>Ejemplo React</h1>
         </header>
     )
 }
 
-export default Header
+export default Header;
