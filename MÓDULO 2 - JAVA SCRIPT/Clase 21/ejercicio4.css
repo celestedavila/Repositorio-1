@@ -1,0 +1,21 @@
+.contenedor{
+    display: flex;
+}
+
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.rosa{
+    background-color: lightcoral;
+}
+
+.naranja{
+    background-color: lightsalmon;
+}
+
+.verde{
+    background-color: lightgreen;
+}

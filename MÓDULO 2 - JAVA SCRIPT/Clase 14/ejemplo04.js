@@ -1,4 +1,4 @@
-const valor = parseInt(prompt('ingrese un valor comprendido entre 1 y 5', '')
+const valor = parseInt(prompt('ingrese un valor comprendido entre 1 y 5', ''))
 
 switch (valor){
     case 1:
